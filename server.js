@@ -5,8 +5,6 @@ require('dotenv').config()
 const PORT = process.env.PORT || 3000;
 const dbConnectionStr = process.env.DB_STRING;
 const MongoClient = require('mongodb').MongoClient;
-require('dotenv').config()
-
 
 MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
     .then(client => {
