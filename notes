@@ -1,0 +1,8 @@
+/*
+
+50px X 50px grid (canva allows for 50x50 sizing so we can default to that to keep the image load at a minimum) 
+
+60 second cooldown
+
+anyone can place either an alien or a human
+
